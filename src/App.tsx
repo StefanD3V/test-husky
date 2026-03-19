@@ -1,5 +1,11 @@
-const value: string = "123";
+type User = {
+  name: string;
+};
+
+const user: User = {
+  name: 123,
+};
 
 export default function App() {
-  return <div>{value}</div>;
+  return <div>{user.name}</div>;
 }
