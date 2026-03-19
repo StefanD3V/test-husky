@@ -10,7 +10,7 @@ import {
   Link as RouterLink,
   useRouteError,
   isRouteErrorResponse,
-} from "react-routereeeed";
+} from "react-router";
 
 function NotFoundPage() {
   const error = useRouteError();
