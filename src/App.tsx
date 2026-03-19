@@ -1,3 +1,5 @@
+const value: string = 123;
+
 export default function App() {
-  return <div>Hello Aviana covece</div>;
+  return <div>{value}</div>;
 }
