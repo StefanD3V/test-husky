@@ -13,7 +13,7 @@ function HomePage() {
       <Typography variant="h1">Aviana</Typography>
 
       <Typography variant="body1" color="text.secondary">
-        Smart airport workforce platform.
+        Smart airport workforce platforms.
       </Typography>
 
       <Card>
