@@ -8,8 +8,6 @@ import {
 } from "@mui/material";
 
 function HomePage() {
-  const x: string = 123;
-
   return (
     <Stack spacing={3}>
       <Typography variant="h1">Aviana</Typography>
@@ -23,7 +21,7 @@ function HomePage() {
           <Stack spacing={2}>
             <Typography variant="h2">Welcome</Typography>
             <Typography variant="body1">
-              This is the initial MUI setup for the Aviana frontend. {x}
+              This is the initial MUI setup for the Aviana frontend.
             </Typography>
             <Box>
               <Button variant="contained">Get started</Button>
