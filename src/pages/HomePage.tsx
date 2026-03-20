@@ -1,36 +1,10 @@
-import {
-  Box,
-  Button,
-  Card,
-  CardContent,
-  Stack,
-  Typography,
-} from "@mui/material";
+export default function HomePage() {
+  const appEnv = import.meta.env.VITE_APP_ENV;
 
-function HomePage() {
   return (
-    <Stack spacing={3}>
-      <Typography variant="h1">Aviana</Typography>
-
-      <Typography variant="body1" color="text.secondary">
-        Smart airport workforce platform.
-      </Typography>
-
-      <Card>
-        <CardContent>
-          <Stack spacing={2}>
-            <Typography variant="h2">Welcome</Typography>
-            <Typography variant="body1">
-              This is the initial MUI setup for the Aviana frontend.
-            </Typography>
-            <Box>
-              <Button variant="contained">Get started</Button>
-            </Box>
-          </Stack>
-        </CardContent>
-      </Card>
-    </Stack>
+    <div>
+      <h1>Hello Aviana</h1>
+      <p>Environment: {appEnv}</p>
+    </div>
   );
 }
-
-export default HomePage;
