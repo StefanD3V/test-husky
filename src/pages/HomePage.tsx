@@ -1,3 +1,10 @@
 export default function HomePage() {
-  return <div>Hello Aviana</div>;
+  const appEnv = import.meta.env.VITE_APP_ENV;
+
+  return (
+    <div>
+      <h1>Hello Aviana</h1>
+      <p>Environment: {appEnv}</p>
+    </div>
+  );
 }
